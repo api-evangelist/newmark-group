@@ -1,0 +1,36 @@
+aid: newmark-group
+name: Newmark Group
+url: https://www.nmrk.com
+reviewed: '2026-05-23'
+reviewer: API Evangelist
+x-type: company
+x-tier: 3
+x-tier-reason: no-apis
+summary: >-
+  Global commercial real estate advisory and services firm (NASDAQ: NMRK) with
+  no public developer program, no documented APIs, and no public GitHub
+  presence. A `NewmarkGroup` GitHub org exists but holds zero public
+  repositories. The firm's principal external data product is the MarketBeat
+  research series, distributed as PDF reports rather than via a programmatic
+  feed. Profiling stops at corporate identity, social channels, and investor
+  relations.
+findings:
+  - area: Public APIs
+    status: Absent
+    note: No developer portal, no documented REST/GraphQL surface, no public OpenAPI.
+  - area: GitHub Org
+    status: Empty
+    note: github.com/NewmarkGroup exists but exposes no public repositories or members.
+  - area: Data Products
+    status: Reports Only
+    note: MarketBeat / market reports published as PDF; no programmatic data API.
+  - area: Subsidiaries
+    status: Documented
+    note: Gerald Eve (UK, acquired 2023) and Open Realty Advisors (multifamily) — neither expose APIs.
+  - area: Web Access
+    status: Bot-Blocked
+    note: www.nmrk.com returns HTTP 403 to non-browser clients; profiling relied on Wikipedia.
+sources:
+  - https://en.wikipedia.org/wiki/Newmark_Group
+  - https://github.com/NewmarkGroup
+  - https://www.nmrk.com

@@ -1,0 +1,49 @@
+aid: newmark-group
+url: https://raw.githubusercontent.com/api-evangelist/newmark-group/refs/heads/main/apis.yml
+name: Newmark Group
+description: >-
+  Newmark Group, Inc. (NASDAQ: NMRK) is a global commercial real estate
+  advisory and services firm headquartered in New York City. Founded in 1929
+  and acquired by BGC Partners in October 2011, Newmark provides capital
+  markets, leasing, valuation & advisory, global corporate services (GCS),
+  property management, industrial and logistics, multifamily, and retail
+  services. The firm expanded its international footprint with the 2023
+  acquisition of UK-based Gerald Eve and its multifamily platform via Open
+  Realty Advisors. Newmark publishes recurring industry research under the
+  MarketBeat / market-report brand but does not operate a public developer
+  program or expose machine-readable APIs.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+type: Index
+tags:
+  - Commercial Real Estate
+  - Capital Markets
+  - Leasing
+  - Valuation
+  - Property Management
+  - Global Corporate Services
+  - Industrial
+  - Multifamily
+  - Public Company
+apis: []
+common:
+  - type: Website
+    url: https://www.nmrk.com
+  - type: InvestorRelations
+    url: https://ir.nmrk.com
+  - type: Insights
+    url: https://www.nmrk.com/insights
+  - type: News
+    url: https://www.nmrk.com/news
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/newmark-knight-frank
+  - type: X
+    url: https://x.com/newmark
+  - type: YouTube
+    url: https://www.youtube.com/user/NewmarkKF
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Newmark_Group
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com

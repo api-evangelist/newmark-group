@@ -28,6 +28,10 @@ tags:
   - Public Company
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/newmark-group-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/newmark-group-domain-security.yml
   - type: Website
     url: https://www.nmrk.com
   - type: InvestorRelations
